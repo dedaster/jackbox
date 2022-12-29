@@ -39,34 +39,4 @@ while True:
         game()
     except ValueError:
         print('Введите число от 3 до 100')
-        print()                    
-
-"""while True:
-	games = pd.read_csv('C:/Git/jack/jackbox.csv')
-	games.columns = ['Часть', 'Название', 'Игроки']
-	n = int(input('Введите количество игроков от 3 до 100: '))
-	if n.isnumeric() and (n <=2 or n > 100):
-	    print('Игроков должно быть от 3 до 100')
-    else:
-	    num = (games['Игроки'] >= n)
-	    res = games.sort_values(['Игроки', 'Часть']).loc[num]
-	    res_l = len(res)
-	    res_r = random.randint(0, (res_l)-1)
-	    result = res.iloc[res_r]
-	
-	    print()
-	    print("Всего подходящих игр: ", res_l)
-	    print()
-	    print(res)
-	
-	    print()
-	    print()
-	    print()
-	    print('Случайная подходящая игра:')
-	    print()
-	    print(result)
-
-	    print()
-	    print()
-	    print()
-"""
+        print()
